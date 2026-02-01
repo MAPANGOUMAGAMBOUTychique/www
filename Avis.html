@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+                <div class="text-center"><img src="Image/logo-lbp-header.png" alt="Lebonplan - Le meilleur site d'annonces en ligne"></div>
+                <br>
+                <hr>
+                <nav class="navbar">Accueil&nbsp;|&nbsp;<a href="a-propos.html">A propos</a>&nbsp;|&nbsp;<a href="inscription.html">Inscription</a>&nbsp;|&nbsp;<a href="connexion.html">Connexion</a>&nbsp;|&nbsp;<a href="avis.html">Avis</a>&nbsp;|&nbsp;<a href="contact.html">Contact</a></nav>
+                <hr>
+    </header>
+
+    <h1>
+        Votre avis nous intéresse 
+    </h1>
+
+    <h2>
+        Description 
+    </h2>
+
+    <form action="AVIS.html" method="get">
+
+        <p>
+            <label for="nom">Nom
+            </label>
+            <input type="text" id="nom" name="nom" required>
+        </p>
+
+        <p>
+            <label for="prenom">prenom
+            </label>
+            <input type="text" id="prenom" name="prenom" required>
+        </p>
+
+        <p>
+            <label for="adresse">Adresse
+            </label>
+            <input type="text" id="adresse" name="adresse" required>
+        </p>
+
+        <p>
+            <label for="demande">Demande</label>
+            <select id="demande" name="demande">
+                <option value="produitachete">produit acheté</option>
+                <option value="servicecommercial">service commercial</option>
+                <option value="servicetechnique">service technique</option>
+                <option value="autres">autres</option>
+            </select>
+        </p>
+
+        <p>
+            <input type="checkbox" id="immobilier" name="immobilier" value="Immobilier">
+            <label for="immobilier">Immobilier</label>
+
+            <input type="checkbox" id="vehicules" name="vehicules" value="Vehicules">
+            <label for="vehicules">Vehicules</label>
+
+            <input type="checkbox" id="vetements" name="vetements" value="Vetements">
+            <label for="vetements">Vetements</label>
+
+            <input type="checkbox" id="multimedia" name="multimedia" value="Multimedia">
+            <label for="multimedia">Multimedia</label>
+
+            <input type="checkbox" id="maison" name="maison" value="Maison">
+            <label for="maison">Maison</label>
+
+            <input type="checkbox" id="loisirs" name="mloisirs" value="Loisirs">
+            <label for="loisirs">Loisirs</label>
+
+            <input type="checkbox" id="services" name="services" value="Services">
+            <label for="sevices">Services</label>
+        </p>
+
+        <p>
+            <label for="photo">Photo</label>
+            <input type="file" id="photo" name="Photo" required>
+        </p>
+
+        <p>
+            <label for="commentaire">Commentaire</label><br>
+            <textarea id="commentaire" name="commentaire" rows="5" cols="50" placeholder="Écrivez votre commentaire ici"></textarea>
+        </p>
+
+        <button type="submit">Envoyer</button>
+        <button type="reset">Effacer</button>
+    </form>
+</body>
+</html>
